@@ -1,0 +1,1 @@
+Álbum Online V5 — Alicya. Paleta lilás predominante com detalhes dourados. Evento ID: alicya-15-anos, separado do teste-album. Substitua assets/moldura.png pela moldura transparente 9:16 da Alicya.

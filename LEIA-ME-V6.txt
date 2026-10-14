@@ -1,0 +1,11 @@
+ÁLBUM ALICYA V6 — VERSÃO DE TESTES
+1. Faça backup do repositório e Supabase.
+2. Execute SUPABASE-V6.sql no SQL Editor.
+3. Verifique as políticas INSERT do bucket fotos-eventos para a subpasta alicya-15-anos/videos/.
+4. Publique index.html e config.js atualizados (moldura original preservada).
+5. Teste Android e iPhone. MediaRecorder depende do navegador e não garante compressão de vídeos escolhidos da galeria.
+6. O limite de 10 MB pode exigir vídeos mais curtos/menor qualidade; arquivos maiores são rejeitados.
+7. Não há botão de download nem compartilhamento de arquivo no álbum. Isso não impede tecnicamente que usuários avançados recuperem mídias públicas via URL/ferramentas do navegador. Para bloqueio real, será necessário bucket privado e URLs assinadas com regras de acesso.
+8. ATENÇÃO: o Painel Admin V2 atual NÃO gerencia vídeos. Atualização Admin V3 é necessária antes de usar com clientes.
+9. Limites implementados no navegador não são barreira de segurança; para produção, aplicar limites no servidor e nas políticas.
+10. Exclusão automática após 7 dias não foi implementada nesta versão de testes.
